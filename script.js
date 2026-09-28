@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       event.preventDefault();
 
       // TROCAR DEPOIS PELO LINK REAL DO CHECKOUT
-      const checkoutUrl = "";
+      const checkoutUrl = "https://ggcheckout.app/checkout/v2/0INB4hQWi748sJsy8Un9";
 
       if (checkoutUrl) {
         window.location.href = checkoutUrl;
